@@ -79,27 +79,32 @@ h2{
   margin:20px 0;
 }
 
-.nutrition{
-  width:100%;
-  border-collapse:collapse;
-}
-
 .nutrition td{
-  padding:10px 0;
+  padding:12px 0;
   border-bottom:1px solid hsl(30,18%,87%);
 }
 
-.nutrition tr:last-child td{
-  border-bottom:none;
+.nutrition td:first-child{
+  padding-left:24px;
+  color:hsl(30,10%,34%);
+}
+
+.nutrition td:last-child{
+  color:hsl(14,45%,36%);
+  font-weight:700;
 }
 p{
 margin-bottom:20px;
 color:hsl(30,10%,34%);
 }
 
-ul,ol{
-padding-left:20px;
-margin-bottom:20px;
+ul li::marker,
+ol li::marker{
+  color:hsl(14,45%,36%);
+  font-weight:700;
+}
+.prep ul li::marker{
+  color:hsl(332,51%,32%);
 }
 
 li{
